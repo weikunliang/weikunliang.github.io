@@ -433,6 +433,13 @@ section h3.section-subheading {
     list-style: none;
 }
 
+.timeline-image{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
 .timeline:before {
     content: "";
     position: absolute;
