@@ -15,6 +15,10 @@ body {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+#name {
+    color: #ee3057;
+}
+
 #aboutpic {
     float: left;
     margin-left: 100px;
@@ -29,7 +33,7 @@ body {
 }
 
 #contacttitle {
-    color: #ffffff;
+    color: #333;
     font-weight: 700;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 30px;
@@ -43,7 +47,7 @@ body {
 
 
 .text-primary {
-    color: #F20CA2;
+    color: #ee3057;
 }
 
 p {
@@ -394,14 +398,14 @@ section h3.section-finalheading{
 
 
 section#contact {
-    background-color: #222;
+    background-color: #f7f7f7;
     /*background-image: url(../img/map-image.png);*/
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #333;
 }
 
 section#contact .form-group {
