@@ -1,453 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<title>Weikun Liang's Portfolio</title>
 
-    <title>Weikun Liang's Portfolio</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	<!-- CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+	<link href="assets/css/animate.css" rel="stylesheet">
+    
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+    
+    <script src="assets/js/modernizr.custom.js"></script>
+       
 </head>
+<body>
 
-<body id="page-top" class="index">
+	<!-- Navigation start -->
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">WEIKUN LIANG</a>
-            </div>
+	<header class="header">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+		<nav class="navbar navbar-custom" role="navigation">
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-heading">Hello, I'm Weikun</div>
-                <div class="intro-lead-in">_____</div>
-                <div class="intro-lead-in">Designer • Developer • Engineer</div>
-                <ul class="list-inline social-buttons">
-                        <li><a href="https://www.facebook.com/weiweiii.liang"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/in/weikunliang/"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                        <li><a href="https://github.com/weikunliang"><i class="fa fa-github"></i></a>
-                        </li>
+			<div class="container">
 
-                </ul>
-            </div>
-        </div>
-    </header>
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Weikun Liang</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">Portfolio</a></li>
+						<li><a href="about.html">About</a></li>
+                        <li><a href="resume.pdf">Resume</a></li>
+					</ul>
+				</div>
+
+			</div><!-- .container -->
+
+		</nav>
+
+	</header>
+
+	<!-- Navigation end -->
 
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
+    
+	<!-- Portfolio start -->
+
+	<section id="portfolio" class="pfblock">
+		<div class="container">            
+            
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>My Works</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio/photo-icon.png">
-                                </a>
-                                <p class = "subtitle">PhotoPlus</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio/book-icon.png">
-                                </a>
-                                <p class = "subtitle">Dubai</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio/didot-icon.png">
-                                </a>
-                                <p class = "subtitle">Didot Typeface Poster</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio/chess-icon.png">
-                                </a>
-                                <p class = "subtitle">Chess Camp</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio/warhol-icon.png">
-                                </a>
-                                <p class = "subtitle">Andy Warhol Museum</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio/santa-icon.png">
-                                </a>
-                                <p class = "subtitle">Crazy Santa</p>
-                            </div>
-                        </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow">
+                        <a href="ubicomp.html">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/ubicomp/preview.png" alt="img01"/>
+                                <figcaption>
+                                    <p>Ubiquitous Computing</p>
+                                </figcaption>           
+                            </figure>
+                        </a>
                     </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark"></a>
+                    
                 </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div id="aboutpic">
-                        <img src="img/about/me.jpg" alt="">
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    
+                    <div class="grid wow">
+                    	<a href="parks.html">
+                        	<figure class="effect-bubba">
+                           		<img src="assets/images/parks/preview.png" alt="img01"/>
+                            	<figcaption>
+                                	<p>Pittsburgh Parks Conservancy</p>
+                            	</figcaption>			
+                        	</figure>
+                        </a>
                     </div>
-                    <div class="timeline-panel">
-                        <div class="timeline-body">
-                            <p id="abouttext"></p>
-                            <p id="abouttext">Hi, I'm Weikun. <br> <br> I am a designer and developer studying
-                             Information Systems and Human Computer Interaction at Carnegie Mellon. I enjoy creating beautiful designs for the products I build, like applications, websites, posters, etc. I believe that a beautiful design not only facilitates the whole user experience, but also makes it more enjoyable. 
-                            <br> <br>In my free time, I’m usually out exploring the city I currently live in and finding new things to try out. I’m a huge fan of food and fashion and I love travelling to new places and experiencing new cities through food and fashion.  <br> <br>
-                            You can find my resume <a href="resume.pdf">here</a></p>
-                        </div>
+                    
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow">
+                        <a href="orca.html">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/orca/preview.png" alt="img01"/>
+                                <figcaption>
+                                    <p>Orca Dashboard</p>
+                                </figcaption>           
+                            </figure>
+                        </a>
                     </div>
-
+                    
                 </div>
-            </div>
-        </div>
-    </section>
 
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 id="contacttitle">Contact Me</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4 id = "name"><strong>Weikun Liang</strong>
-                    </h4>
-                    <ul class="list-unstyled">
-                        <li>Carnegie Mellon University SMC #6327</li>
-                        <li>Pittsburgh, PA 15289</li>
-                        <li><i class="fa fa-phone fa-fw"></i> (412) 638-9865</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:weikunl@andrew.cmu.edu">weikunl@andrew.cmu.edu</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="https://www.facebook.com/weiweiii.liang"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/weikunliang"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/weikunliang"><i class="fa fa-github fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">&copy; Weikun Liang 2014</span>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow">
+                        <a href="info.html">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/info/preview.png" alt="img01"/>
+                                <figcaption>
+                                    <p>Information Poster</p>
+                                </figcaption>           
+                            </figure>
+                        </a>
                     </div>
+                    
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>PhotoPlus</h2>
-                            <p class="item-intro text-muted">An Android application</p>
-                            <img class="img-responsive" src="img/portfolio/photo.png" alt="">
-                            <p class="content">An android application written in Java. This application allows you to edit pictures or combine pictures into a collage. Features several different layout options, combining two, three or four photos into a collage. Pictures can be uploaded from the gallery or taken from the camera. You can also draw on pictures from a color palette and save it in the gallery. Display optimal for a 1080x1920 pixels resolution display.
-                            <br><br>The code can be found <a href="https://github.com/weikunliang/PhotoPlus">here</a></p>
-                            <ul class="list-inline">
-                                <li>Date: December 2014</li>
-                                <li>Class: User Interface Mobile Lab</li>
-                                <li>Language: Java</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+<!--                 <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow">
+                        <a href="control.html">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/item.png" alt="img01"/>
+                                <figcaption>
+                                    <p>Control</p>
+                                </figcaption>           
+                            </figure>
+                        </a>
                     </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Dubai</h2>
-                            <p class="item-intro text-muted">A visual book</p>
-                            <p class="content">A travel brochure designed to present the main attractions in Dubai. Provides images and descriptions of Burj Al Arab, Dubai Fountain, and Miracle Garden.</p>
-                            <img class="img-responsive" src="img/portfolio/1.png" alt="" width=350 id = "firstpage">
-                            <img class="img-responsive" src="img/portfolio/2.png" alt="">
-                            <img class="img-responsive" src="img/portfolio/3.png" alt="">
-                            <img class="img-responsive" src="img/portfolio/4.png" alt="">
-                            <img class="img-responsive" src="img/portfolio/5.png" alt="" width=350>
-                            <ul class="list-inline">
-                                <li>Date: November 2014</li>
-                                <li>Class: Communication Design Fundamentals</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                    
+                </div> -->
 
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow">
+                        <a href="weather.html">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/weather/preview.png" alt="img01"/>
+                                <figcaption>
+                                    <p>Weather Dashboard</p>
+                                </figcaption>           
+                            </figure>
+                        </a>
                     </div>
+                    
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Didot Tpyeface Poster</h2>
-                            <p class="item-intro text-muted">A design for Didot type specimen poster</p>
-                            <img class="img-responsive" src="img/portfolio/didot.png" alt="">
-                            <p class="content">A design which applies the basics of typography hiererchy, using that to highlight the formal quality of the character and personality of the typeface. Made using Adobe Illustrator.</p>
-                         
-                            <ul class="list-inline">
-                                <li>Date: October 2014</li>
-                                <li>Class: Communication Design Fundamentals</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow">
+                        <a href="coffeebot.html">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/coffeebot/preview.png" alt="img01"/>
+                                <figcaption>
+                                    <p>Coffeebot</p>
+                                </figcaption>           
+                            </figure>
+                        </a>
                     </div>
+                    
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Chess Camp</h2>
-                            <p class="item-intro text-muted">A Ruby on Rails Application</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/chess.png" alt="">
-                            <p class="content">A Ruby on Rails application designed for a fictitious chess camp. Effectively shows information on all camps, curricula, locations, and instructors offered. Students who are logged in can browse camps and register for them. Different user have different privileges - administrators have all possible privileges, instructors who are logged in have limited privileges, and users who are just browsing the website without logging in can look for general information about the camp. This application used Git for version control. Implemented the Model-View-Controller framework. Contains the integration of interactive Google Maps and nested forms.
-                            <br><br>The code can be found <a href="https://github.com/weikunliang/ChessCamp">here</a>
-                            </p>
-                            <ul class="list-inline">
-                                <li>Date: April 2014</li>
-                                <li>Class: Application Design and Application</li>
-                                <li>Language: Ruby & Rails</li>
-                            </ul>
-                            
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow">
+                        <a href="bee.html">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/meaningbee/preview.png" alt="img01"/>
+                                <figcaption>
+                                    <p>Meaning Bee</p>
+                                </figcaption>           
+                            </figure>
+                        </a>
                     </div>
+                    
                 </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow">
+                        <a href="didot.html">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/didot/preview.png" alt="img01"/>
+                                <figcaption>
+                                    <p>Didot</p>
+                                </figcaption>           
+                            </figure>
+                        </a>
                     </div>
+                    
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Andy Warhol Museum</h2>
-                            <p class="item-intro text-muted">Web Design</p>
-                            <p class="content">A web design project made for a fictitious Andy Warhol exhibition. The project required two versions of the homepage that gives with two different feelings - a trendy one and a professional one. Written in HTML, CSS, and JQuery.
-                                <br><br>The code can be found <a href="https://github.com/weikunliang/WarholMuseum">here</a></p>
-                            <img class="img-responsive img-centered" src="img/portfolio/warhol.png" alt="">
-                            <p>The trendy version of the homepage</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/warhol2.png" alt="">
-                            <p>The professional version of the homepage</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/warhol-content.png" alt="">
-                            <p>An example of a content page of the website. All other pages use a similar design.</p>
-                            <ul class="list-inline">
-                                <li>Date: October 2013</li>
-                                <li>Class: The Information System Milieux</li>
-                                <li>Language: HTML, CSS, JQuery</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
+                
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow">
+                        <a href="dubai.html">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/dubai/preview.png" alt="img01"/>
+                                <figcaption>
+                                    <p>Dubai</p>
+                                </figcaption>           
+                            </figure>
+                        </a>
                     </div>
+                    
                 </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow">
+                        <a href="warhol.html">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/warhol/preview.png" alt="img01"/>
+                                <figcaption>
+                                    <p>Andy Warhol Museum</p>
+                                </figcaption>           
+                            </figure>
+                        </a>
                     </div>
+                    
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Crazy Santa</h2>
-                            <p class="item-intro text-muted">A Python Game</p>
-                            <iframe width="700" height="369" src="https://www.youtube.com/embed/_RboPlx649Y" frameborder="0" allowfullscreen id="video"></iframe>
-                            <p class="content">A Christmas themed game similar to the Helicopter game where the user plays as Santa Claus riding on a flying sleigh, and tries to navigate a field of obstacles floating through the air. The user can hold the ‘Up’ arrow to fly upwards and release to let the sleigh fall down. If you are playing for the first time or are just having some trouble, there is a  beginner mode which calculates and displays the optimal path through the obstacles. If you are looking for a challenge, try the arcade mode. There are now presents to be collected and moving obstacles and poison to be avoided. Written in Python and Tkinter.
-                            <br><br>The code can be found <a href="https://github.com/weikunliang/CrazySanta">here</a></p>
-                          
-                            <ul class="list-inline">
-                                <li>Date: December 2012</li>
-                                <li>Class: Fundamentals of Programming</li>
-                                <li>Language: Python</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow">
+                        <a href="santa.html">
+                            <figure class="effect-bubba">
+                                <img src="assets/images/santa/preview.png" alt="img01"/>
+                                <figcaption>
+                                    <p>Crazy Santa</p>
+                                </figcaption>           
+                            </figure>
+                        </a>
                     </div>
+                    
                 </div>
-            </div>
-        </div>
-    </div>
+                
+                
 
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+		</div><!-- .contaier -->
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
+	</section>
+
+	<!-- Portfolio end -->
+    
+  
+	<!-- Footer start -->
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12">
+
+					<ul class="social-links">
+						<li><a href="https://www.facebook.com/weiweiii.liang" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/weikunliang" class="wow fadeInUp"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/weikunliang" class="wow fadeInUp"><i class="fa fa-github"></i></a></li>
+					</ul>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</footer>
+
+	<!-- Footer end -->
+
+	<!-- Javascript files -->
+
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.cbpQTRotator.js"></script>
+	<script src="assets/js/custom.js"></script>
 
 </body>
-
 </html>
