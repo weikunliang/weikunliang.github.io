@@ -79,7 +79,7 @@ footer {
     margin-top: 8rem;
   }
   .menu > li > a {
-    padding: 2rem 1rem;
+    margin: 2rem 1rem;
   }
   .icon-car {
     display: none !important; 
@@ -104,6 +104,9 @@ footer {
   }
   footer {
     height: auto;
+  }
+  .image-overlay-content {
+    display: none !important;
   }
   
 }
@@ -130,7 +133,6 @@ footer {
   border-color: transparent #fff transparent transparent; }
 
 /* Image Hover Effect*/
-
 .image-wrapper {
   width: 100%;
   height: 100%;
